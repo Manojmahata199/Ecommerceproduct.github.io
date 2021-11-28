@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta  http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ecommerce product page</title>
+        <script src="https://kit.fontawesome.com/a53c52c612.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="productpage.css">
+        <script src="product.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="container-2">
+               <div class="nav-main">
+                <nav class="navbar">
+                    <div class="logo">
+                        <h3><i class="fa fa-certificate"></i> Manoj Ecommerce</h3>
+                    </div>
+                    <div class="all-services">
+                        <ul class="ul">
+                            <a href=""><li><i class="fa fa-business-time"></i>Todays Deals</li></a>
+                            <a href=""><li><i class="fa fa-gear"></i>Service</li></a>
+                            <a href=""><li><i class="fa fa-user"></i>Registry</li></a>
+                            <a href=""><li><i class="fa fa-gift"></i>Gift Cards</li></a>
+                            <a href=""><li><i class="fa fa-chart-line"></i>Sells</li></a>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="all-products">
+                    <ul class="ul">
+                        <li><button class="open-btn" onclick="menuopen()"><i class="fa fa-bars"></i></button> All</li>
+                        <a href=""><li>Electronics</li></a>
+                        <a href=""><li>Fashion</li></a>
+                        <a href=""><li>Food</li></a>
+                        <a href=""><li>Furniture</li></a>
+                        <a href=""><li>Cosmetics</li></a>
+                    </ul>
+                    <div class="logo-deal"><button class="deal-btn" onclick="bestdeals()"><h3><i class="fa fa-briefcase"></i>Shop Best Deals</h3><i class="fa fa-caret-down"></i></button><ul id="drop-menu" class="drop-list"><li><a href="">Winter Sells</a> </li><li><a href="">Fashion Dhamaka</a></li><li><a href="">New Year Deals</a></li><li><a href="">Big Offer</a></li><li><a href="">60% off Sells</a></li><li><button onclick="closedeals()" class="up-btn"><i class="fa fa-caret-up"></i></li></button></ul></div>
+                    
+                </div>
+               </div>
+                <div class="container-3">
+                    <div id="menu-bar">
+                        <ul class="ul-1">
+                            <button class="btn-close" onclick="menuclose()"><i class="fa fa-close"></i></button>
+                            <a href=""><li>Books</li></a>
+                            <a href=""><li>Electronics</li></a>
+                            <a href=""><li>Fashion</li></a>
+                            <a href=""><li>Food</li></a>
+                            <a href=""><li>Furniture</li></a>
+                            <a href=""><li>Cosmetics</li></a>
+                            <a href=""><li>Grocery</li></a>
+                            <a href=""><li>Essencials</li></a>
+                            <a href=""><li>Appliances</li></a>
+                            <a href=""><li>Baby Products</li></a>
+                            <a href=""><li>Home products</li></a>
+                            <a href=""><li>Flower</li></a>
+                            <a href=""><li>Drinks</li></a>
+                            <a href=""><li>Jewllery</li></a>
+                            <a href=""><li>kitchen Products</li></a>
+                            <a href=""><li>garden products</li></a>
+                            <a href=""><li>Tools</li></a>
+                        </ul>
+                        
+                    </div>
+                    <div class="small-images">
+                        <img src="images/redmi1.jpg" id="img" onclick="clickimg(this)">
+                        <img src="images/redmi2.jpeg" id="img" onclick="clickimg(this)">
+                        <img src="images/redmi3.jpg" id="img" onclick="clickimg(this)">
+                        <img src="images/redmi4.jpg" id="img" onclick="clickimg(this)">
+                        <img src="images/redmi5.jpg" id="img" onclick="clickimg(this)">
+                        <img src="images/redmi6.webp" id="img" onclick="clickimg(this)">
+
+
+
+                    </div>
+                    <div class="big-images">
+                        <img src="images/redmi1.jpg" id="image-1">
+                    </div>
+                    <div class="text">
+                        <div class="product-name">
+                            <p class="name"><b>Xiaomi Redmi Note 10 Pro | 128GB 6GB RAM</b></p>
+
+                        </div>
+                        <div class="brand">
+                            <a href=""><p>Brand:redmi Note 4</p></a>
+
+                        </div>
+                        <div class="ratings">
+                            <a href="">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </a>
+                            <a href="">11,234 ratings</a>
+                            <a href="">279 Answered Question</a>
+                            <hr/>
+                        </div>
+                        
+                        <div class="price">
+                            <table><tbody><tr>
+                                <td>price:</td>
+                                <td><h4>$491648</h4></td>
+                            </tr></tbody></table>
+                            <p>Available at a lower price from other sellers that may not offer free Prime shipping.</p>
+                            <h3>Enhance your purchase</h3>
+                            <hr/>
+                        </div>
+                        <div class="trade">
+                            <h3>Trade-in and save</h3>
+                            <p>Get up to $511.00 added to your Amazon.com Gift Card balance when you trade in your old device(s)</p>
+                            <div class="trade-in"><a  href=""><b>Start Your Trade In</b></a></div>
+                            <hr/>
+                        </div>
+                        <div class="table-data">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td><b>
+                                            Model Name	</b></td>
+                                        <td>Note 10 Pro</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>
+                                            Wirless Carrier	</b></td>
+                                        <td>Unlock For All Carrier</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>
+                                            Brand 	</b></td>
+                                        <td>Xiaomi</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>
+                                           Memory Capacity	</b></td>
+                                        <td>64GB 128GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>
+                                            Operating System	</b></td>
+                                        <td>Android Operating System</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>
+                                            Year	</b></td>
+                                        <td>2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>
+                                            Screen Size	</b></td>
+                                        <td>6.67 inches</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <hr/>
+                        </div>
+                        <div class="about-product">
+                            <h3>About This Item</h3>
+                            <ul>
+                                <li>NOTE: International Version. No Warranty.</li>
+                                <li>Storage: 128GB 6GB RAM</li> 
+                                <li>Display: 6.7-inch screen Resolution: 2400 x 1080 FHD+ 395 PPI</li> 
+                                <li>Platform: Android 11, MIUI 12 Qualcomm  732G</li> 
+                                <li>Camera: 108MP+8MP+5MP+2MP quad camera</li>                        
+                            </ul>
+                            <a href="">Compare To Similar Item</a>
+                        </div>
+                    </div>
+                    <div class="cart">
+                        <div class="add-cart">
+                            <h3>$5387</h3>
+                            <p>This item cannot be shipped to your selected delivery location. Please choose a different delivery location.</p>
+                            <a href=""><i class="fa fa-location-dot"></i>Deliver To india</a>
+                            <div class="trade-in-2"><a  href=""><b>Add To Cart</b></a></div>
+                        </div>
+                        <div class="add-cart-share">
+                            <span> share on:<a href=""><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-twitter"></i></a><a href=""><i class="fa fa-whatsapp"></i></a></span>
+
+                        </div>
+                        <div class="add-cart-other-sellers">
+                            <table class="table-2">
+                                <tbody>
+                                    <tr>
+                                        <h3>Other Sellers </h3>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            <h3>$4587</h3>
+                                            <span>sold by:<a href="">Big Bazar</a></span>
+                                        </td>
+                                        <td>
+                                            <div class="trade-in-3"><a  href=""><b>Add To Cart</b></a></div>
+
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            <h3>$7687</h3>
+                                            <span>sold by:<a href="">new Bazar</a></span>
+                                        </td>
+                                        <td>
+                                            <div class="trade-in-3"><a  href=""><b>Add To Cart</b></a></div>
+
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            <h3>$5787</h3>
+                                            <span>sold by:<a href="">Shop Cules</a></span>
+                                        </td>
+                                        <td>
+                                            <div class="trade-in-3"><a  href=""><b>Add To Cart</b></a></div>
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="similar-item">
+
+                 <h3>Similar Products Realted To This Item</h3>
+                 <div class="cart-div">
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi1.jpg">
+                            <div class="product-cart-name"><a  href="">Xiaomi Mi 11 Lite 5G NE - Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi2.jpeg">
+                            <div class="product-cart-name"><a  href="">Samsung s6 pro max - Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi3.jpg">
+                            <div class="product-cart-name"><a  href="">Redmi not 10 pro max- Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi4.jpg">
+                            <div class="product-cart-name"><a  href="">One plus note 8 pro max- Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi5.jpg">
+                            <div class="product-cart-name"><a  href="">VIVO note6 pro max - Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi6.webp">
+                            <div class="product-cart-name"><a  href="">Nokia 360 Mi 11 Lite 5G NE - Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi3.jpg">
+                            <div class="product-cart-name"><a  href="">Samsung note 5 pro max- Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi1.jpg">
+                            <div class="product-cart-name"><a  href="">Oppo a5s - Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                    <div class="product-cart">
+                        <a href="">
+                            <img src="images/redmi5.jpg">
+                            <div class="product-cart-name"><a  href="">Redmi note 4 pro - Unlocked 5G Smartphone, 8GB+128GB</a></div> 
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <h4>$986986</h4>
+                            <div class="trade-in-4"><a  href=""><b>Add To Cart</b></a></div>
+
+                        </a>
+                    </div>
+                  </div>
+                  <hr/>
+                </div>
+                <div class="review-div">
+                    <h3>Customers Reviews</h3>
+                    <div class="rating-div">
+                        <div>
+                            <div class="rating-star-2">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div>
+                               <b>4.3 out of 10</b>
+
+                            </div>
+                        </div>
+                        <div>
+                            590 Global Rating
+                        </div>
+                        <div class="progress-bar">
+                            <table>
+                                <tbody>
+                                    
+                                        <tr>
+                                           <td>
+                                               <span><a href="">
+                                                <div class="rating-star-2">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                               </a></span>
+                                            </td>
+                                           <td>
+                                               <a href=""> 
+                                                   <div class="bar-1">
+                                                       <div class="bar-2" >
+
+                                                       </div>
+                                                   </div>
+                                               </a>
+                                            </td>
+                                           <td>
+                                               <span><a href="">71%</a></span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span><a href="">
+                                                    <div class="rating-star-2">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        
+                                                    </div>
+                                                </a></span>
+                                             </td>
+                                            <td>
+                                                <a href=""> 
+                                                    <div class="bar-1">
+                                                        <div class="bar-2" >
+ 
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                             </td>
+                                            <td>
+                                                <span><a href="">54%</a></span>
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                                <span><a href="">
+                                                    <div class="rating-star-2">
+                                                      <i class="fa fa-star"></i>
+                                                      <i class="fa fa-star"></i>
+                                                      <i class="fa fa-star"></i>
+                                                   
+                                                    </div>
+                                                </a></span>
+                                             </td>
+                                            <td>
+                                                <a href=""> 
+                                                    <div class="bar-1">
+                                                        <div class="bar-2" >
+ 
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                             </td>
+                                            <td>
+                                                <span><a href="">32%</a></span>
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                                <span><a href="">
+                                                    <div class="rating-star-2">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    
+                                                    </div>
+                                                </a></span>
+                                             </td>
+                                            <td>
+                                                <a href=""> 
+                                                    <div class="bar-1">
+                                                        <div class="bar-2" >
+ 
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                             </td>
+                                            <td>
+                                                <span><a href="">13%</a></span>
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td>
+                                                <span><a href="">
+                                                    <div class="rating-star-2">
+                                                        <i class="fa fa-star"></i>
+                                                       
+                                                    </div>
+
+                                                </a></span>
+                                             </td>
+                                            <td>
+                                                <a href=""> 
+                                                    <div class="bar-1">
+                                                        <div class="bar-2" >
+ 
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                             </td>
+                                            <td>
+                                                <span><a href="">9%</a></span>
+                                             </td>
+                                         </tr>
+                                    
+                                </tbody>
+                            </table>
+                        
+                        </div>
+                    </div>
+                    <div class="own-rating">
+                        <div class="rating-star-5">
+                            <span id="star-1"><i class="fa fa-star"></i></span>
+                            <span id="star-2"><i class="fa fa-star"></i></span>
+                            <span id="star-3"><i class="fa fa-star"></i></span>
+                            <span id="star-4"><i class="fa fa-star"></i></span>
+                            <span id="star-5"><i class="fa fa-star"></i></span>
+                        </div>
+                    
+
+                    </div>
+                    
+                    <div class="star-btn">
+                        <h3>Your Rating</h3>
+                        <div class="str-div">
+                            <button id="btn"  onclick="star1()"><i class="fa fa-star"></i></button>
+                            <button id="btn"  onclick="star2()"><i class="fa fa-star"></i></button>
+                            <button id="btn"  onclick="star3()"><i class="fa fa-star"></i></button>
+                            <button id="btn"  onclick="star4()"><i class="fa fa-star"></i></button>
+                            <button id="btn"  onclick="star5()"><i class="fa fa-star"></i></button>
+                            
+                        </div>
+
+
+                    </div>
+
+
+
+                
+                </div>
+                <hr/>
+                <div class="all-comment">
+                    <h3>All Comments</h3>
+
+
+
+
+                    <div id="new-comment">
+                        <p id="name1"><i class="fa fa-user"></i><b>manoj mahata</b></p>
+                        <div class="rating-star">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                            
+                        </div>
+                        <p id="head1"><b>need more color</b></p>
+                        <p><span id="place1">baruipur</span><span id="date1">8 july 2021</span></p>
+                        <p id="details1"> this  is apa srsbgdiuq chohc ;KSC HOhochpc dhwefowhfwef fsdf  cf s c wfwewew ffsaf fa c  cfwfwef ef ed </p>
+                        <div class="thumbs">
+                            <button id="likebtn" onclick="like()"> <span><i class="fa fa-thumbs-up"></i></span></button>
+                            <input type="number" id="input1" value="0" name="" disabled>
+                            <button id="dislikebtn" onclick="like()"><span><i class="fa fa-thumbs-down"></i></span></i></button>
+                            <input type="number" id="input2" value="0" name="" disabled>
+                            <a href="#comment"><button ><i class="fa fa-comment"></i></button></a>
+                        </div>
+                        <hr/>
+                    </div>
+                    
+                    <div class="comment">
+                        <div>
+                            <p><i class="fa fa-user"></i><b>Manoj Mahata</b></p>
+                        </div>
+                        <div>
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                                
+                            </div>
+                            <h4>Need more deatils</h4>
+
+                        </div>
+                        <div>
+                            <h5>Kolkata,29 november ,2021</h5>
+                        </div>
+                        <p>First off. I have owned every Redmi Note since model 6. Waited patiently for the 10 pro. Ordered two since my GF also has a note 9 pro. Soon as I swapped Sim card cricket flagged phone as incompatible with HD voice. Two hours on phone and no resolution. Then decided to change providers. Called liberally every major and minor company in the USA. As soon as they enter the imei it is declined. Also went to many websites to check compatibility.</p>
+                        <div class="thumbs">
+                            <button id="likebtn" onclick="like()"> <span><i class="fa fa-thumbs-up"></i></span></button>
+                            <input type="number" id="input1" value="0" name="" disabled>
+                            <button id="dislikebtn" onclick="like()"><span><i class="fa fa-thumbs-down"></i></span></i></button>
+                            <input type="number" id="input2" value="0" name="" disabled>
+                            <a href="#comment"><button ><i class="fa fa-comment"></i></button></a>
+                        </div>
+                        <hr/>
+
+                    </div>
+                    <div class="comment">
+                        <div>
+                            <p><i class="fa fa-user"></i><b>Ikbal hosain Gazi</b></p>
+                        </div>
+                        <div>
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                                
+                            </div>
+                            <h4>Need more deatils</h4>
+
+                        </div>
+                        <div>
+                            <h5>Kolkata,29 november ,2021</h5>
+                        </div>
+                        <p>First off. I have owned every Redmi Note since model 6. Waited patiently for the 10 pro. Ordered two since my GF also has a note 9 pro. Soon as I swapped Sim card cricket flagged phone as incompatible with HD voice. Two hours on phone and no resolution. Then decided to change providers. Called liberally every major and minor company in the USA. As soon as they enter the imei it is declined. Also went to many websites to check compatibility.</p>
+                        <div class="thumbs">
+                            <button id="likebtn" onclick="like()"><i class="fa fa-thumbs-up"></i></button>
+                            <input type="number" id="input1" value="0" name="" disabled>
+                            <button id="dislikebtn" onclick="like()"><i class="fa fa-thumbs-down"></i></button>
+                            <input type="number" id="input2" value="0" name="" disabled>
+                            <a href="#comment"><button ><i class="fa fa-comment"></i></button></a>
+                        </div>
+                        <hr/>
+
+                    </div>
+                    <div class="comment">
+                        <div>
+                            <p><i class="fa fa-user"></i><b>sourav morduney</b></p>
+                        </div>
+                        <div>
+                            <div class="rating-star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                
+                                
+                            </div>
+                            <h4>Need more deatils</h4>
+
+                        </div>
+                        <div>
+                            <h5>Kolkata,29 november ,2021</h5>
+                        </div>
+                        <p>First off. I have owned every Redmi Note since model 6. Waited patiently for the 10 pro. Ordered two since my GF also has a note 9 pro. Soon as I swapped Sim card cricket flagged phone as incompatible with HD voice. Two hours on phone and no resolution. Then decided to change providers. Called liberally every major and minor company in the USA. As soon as they enter the imei it is declined. Also went to many websites to check compatibility.</p>
+                        <div class="thumbs">
+                            <button id="likebtn" onclick="like()"><i class="fa fa-thumbs-up"></i></button>
+                            <input type="number" id="input1" value="0" name="" disabled>
+                            <button id="dislikebtn" onclick="dislike()"><i class="fa fa-thumbs-down"></i></button>
+                            <input type="number" id="input2" value="0" name="" disabled>
+                            <a href="#comment"><button ><i class="fa fa-comment"></i></button></a>
+                        </div>
+                        <hr/>
+
+                    </div>
+                   
+                    
+                </div>
+                <hr/>
+                <div class="comment-input" id="comment">
+                    <h3>Comment Please</h3>
+                    
+                        
+                            <div class="input-div">
+                                <form class="form-data"  method="post" action="" name="form1" onsubmit="comment()">
+                                  <h3>Enter Your Comment</h3>
+                                  <input type="text" name="name" id="name" placeholder="Enter Your Name"><br>
+                                  <input type="text" name="head" id="heading" placeholder="Enter The Comment Heading"><br>
+                                  <input type="text" name="place" id="place" placeholder="Enter Your Address"><br>
+                                  <input type="text" name="date" id="date" placeholder="Enter Date"><br>
+                                  <textarea rows="5" cols="50" name="details" id="details" placeholder="Enter Your Comment Briefly"></textarea><br>
+                                  <input type="submit" name="submit" id="submit" value="submit" class="submit-btn">
+                                </form>
+                            </div>
+
+
+
+                    
+                    
+
+
+
+                </div>
+                <hr/>
+                <footer>
+                    <div class="foot-div">
+                        <div class="foot-1">
+                            <div class="foot-2"><a href="mailto:manojmahata.mid@gmail.com"><i class="fa fa-envelope"></i>  Email:manojmahata.mid@gmail.com</a></div>
+                            <div  class="foot-2"><a href="tel:+91-8637583151"><i class="fa fa-phone"></i>  Customers Care No:8637583151</a></div>
+
+
+                        </div>
+                        <div class="foot-1">
+                            <div class="foot-2"><a href="facebook.com"><i class="fa fa-facebook"></i>  Facebook Page</a></div>
+                            <div  class="foot-2"><a href="twitter.com"><i class="fa fa-twitter"></i>  WWW.Twitter.com</a>
+</div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <a href="">allright copyright reserved 2021</a>
+                    </div>
+
+                </footer>
+            
+             
+            
+            
+            
+            
+            
+            
+            </div>
+
+
+
+        </div>
+
+
+    </body>
+</html>
